@@ -45,8 +45,7 @@ def pars_vacancy(list_links):
             'location': location.text
         }
         result.append(res)
-
-        return result
+    return result
 
 if __name__ == "__main__":
     list_links = job_selection(vacancys)
